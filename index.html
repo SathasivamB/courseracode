@@ -1,53 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/style.css" rel="stylesheet">
-    <title>Go Blue!</title>
+    <title>My HTML5 Project</title>
 </head>
-</head>
-
 <body>
-    <main>
-        <h1>The University of Michigan</h1>
-        <div>
-            <h2>About</h2>
-            <p>A top-ranked public university, the University of Michigan has a tradition of excellence in research,
-                learning and teaching, sports and the arts, and more.</p>
-        </div>
-        <div>
-            <h2>Quick Facts</h2>
-            <h3>Famous Alumni</h3>
+    <header>
+        <h1>Welcome to My HTML5 Project</h1>
+        <nav>
             <ul>
-                <li>Larry Page</li>
-                <li>Darren Chriss</li>
-                <li>James Earl Jones</li>
-                <li>Tom Brady</li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
+        </nav>
+    </header>
 
-            <a href="https://blog.collegevine.com/best-public-universities-in-the-us/">
-                <h3>Best Public Universities</h3>
-            </a>
-            <ol>
-                <li><strong>The University of Michigan</strong></li>
-                <li>University of North Carolina at Chapel Hill</li>
-                <li>University of Virginia</li>
-                <li>University of California, Berkeley</li>
-                <li>University of California, Los Angeles</li>
-            </ol>
-        </div>
+    <main>
+        <section id="about">
+            <h2>About This Project</h2>
+            <p>This is my final project for the Introduction to HTML5 course. It showcases basic HTML5 elements.</p>
+        </section>
 
-        <div>
+        <section id="gallery">
             <h2>Gallery</h2>
-            <img src="images/band.jpeg" alt="University of Michigan Block M" width="90%">
-            <img src="images/diag.jpg" alt="University of Michigan Diag" width="90%">
-            <img src="images/lawquad.jpeg" alt="University of Michigan Law Quad" width="90%">
-        </div>
+            <p>Here are some images related to my project:</p>
+            <img src="image1.jpg" alt="Description of image 1">
+            <img src="image2.jpg" alt="Description of image 2">
+            <img src="image3.jpg" alt="Description of image 3">
+        </section>
 
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>For more information, visit my <a href="https://example.com" target="_blank">external site</a>.</p>
+        </section>
     </main>
-</body>
 
+    <footer>
+        <p>&copy; 2025 My Project</p>
+    </footer>
+</body>
 </html>
